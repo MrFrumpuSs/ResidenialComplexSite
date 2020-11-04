@@ -1,0 +1,378 @@
+@media (min-width: 0px) and (max-width : 767px)
+{
+    header {
+        /*height: 840px;*/
+        padding-top: 30px;
+        border-bottom: 1px solid #000;
+        .inner {
+         
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 75px;
+            align-items: center;
+
+            .header-content {
+                &__title {
+                    font-size: 28px;
+                    line-height: 37px;
+                }
+                &__mouse {
+                    display: none;
+                }
+            }
+            .header-contacts {
+                display: flex;
+                flex-direction: column;
+                &__text {
+                    margin-right: 0px;
+                }
+                &__icon {
+                    margin-bottom: 15px;
+                    img {
+                        margin-right: 15px;
+                    }     
+                }
+            }
+        }     
+    }
+    .adventages {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+        &::before {
+            display: none;
+        }
+        &__item {
+            margin-bottom: 30px;
+        }
+        &__title {
+            margin-top: 20px;
+        }
+    }
+    .catalog {
+        position: relative;
+        &::before {
+            display: none;
+        }
+        &__h {
+            margin-bottom: 50px;
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: unset;
+            justify-content: center;
+        }
+    
+        &__title {
+            font-size: 18px;
+            margin: 0 0 25px 25px;
+        }
+        &__button {
+            display: unset;
+            max-width: 255px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 50px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 27px;
+            color: #fff;
+            background: #D4C17F;
+        }
+    }
+    .contacts {
+        padding:  50px 0 50px 0;
+        background-image: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.1)), url(../img/contacts_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__h {
+            margin-bottom: 30px;
+        }
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        &__text {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 535px;
+            color: #FFFFFF;
+            order: 2;
+        }
+    
+        &__form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            order: 1;
+            margin-bottom: 20px;
+        }
+    
+        &__input {
+            max-width: 150px;
+            height: 40px;
+            font-size: 12px;
+            margin-right: 0px;
+        }
+    
+        &__conf {
+            max-width: 140px;
+            font-size: 12px;
+        }
+    
+        &__button {
+            max-width: 150px;
+            height: 40px;
+            font-size: 12px;
+        }
+        &__item {
+            flex: 0 1 50%;
+            margin-bottom: 20px;
+        }
+    } 
+    .video {
+        position: relative;
+        &::before {
+            display: none;
+        }
+        &__container {
+            max-width: 100%;
+            height: 300px;
+        }
+    
+        &__button {
+            width: 80px;
+            height: 80px;
+            background-size: 80px 80px;
+        }
+    }
+    .map {
+        position: relative;
+        &::before {
+            display: none;
+        }
+        padding:  50px 0 0 0;
+        &__h {
+            margin-bottom: 30px;
+        }
+        #map {
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .conversion {
+        padding:  50px 0 50px 0;
+        &__h {
+            margin-bottom: 30px;
+        }
+        &__form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__input {
+            margin-bottom: 20px;
+        }
+        &__conf {
+            margin-bottom: 20px;
+        }
+    }
+    .footer {
+        background-color: #2D343C;
+        padding: 50px 0 50px 0;
+        &__logo {
+            margin-bottom: 15px;
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__item {
+            padding: 7.5px 0 7.5px 0;
+            a {
+                font-family: 'Raleway', sans-serif;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px; 
+                letter-spacing: 0.05em;
+                color: #fff;
+            }
+        }
+    
+        &__social {
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start;
+            li {
+                padding-right: 20px;
+            }
+        }
+    }
+
+
+
+    .h2 {
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 48px;
+        color: #D4C17F;
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 320px;
+    }
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: unset;
+    }
+    .list {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-item  {
+        margin: 0 10px 10px 10px;
+    }
+    .logo {
+        &__title {
+            font-size: 26px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            font-size: 10px;
+        }
+    }
+    .hidden {
+        display: none;
+    }
+    .modal {
+        max-width: 360px !important;
+        &__content {
+            
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;  
+        }
+    
+        &__img {
+            width: 200px;
+            margin-bottom: 10px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        &__left-part {
+            flex: 0 0 25%;
+        }
+    
+        &__subtitle {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 27px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+    
+        &__right-part {
+            flex: 0 0 60%;
+        }
+    
+        &__title {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 35px;
+            color: #FFFFFF;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .close-modal {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .close-modal img {
+            width: 15px;
+        }
+        &__price {
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 48px;
+            color: #D4C17F;
+            margin-left: 0;
+            margin-bottom: 0px;
+        }
+        &__list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            max-width: 320px;
+            height: 50px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            color: #FFFFFF;
+        }
+        &__list-item {
+            flex: 0 1 45%;
+            margin: 0 5px 0 5px;
+        }
+    }
+    .contacts {
+    
+        &__form {
+            margin-top: 0px;
+            margin-bottom: 0px;
+            flex-direction: column;
+        }
+    
+        &__input {
+            min-height: 30px;
+            min-width: 150px;
+        }
+    
+        &__item {
+        }
+    
+        &__conf {
+        }
+    
+        &__button {
+            min-height: 30px;
+            min-width: 150px;
+        }
+    }
+}

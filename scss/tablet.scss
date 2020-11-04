@@ -1,0 +1,218 @@
+@media (min-width: 768px) and (max-width : 991px)
+{
+    .adventages {
+        &::before {
+            display: none;
+        }
+    }
+    .catalog {
+        &::before {
+            display: none;
+        }
+    }
+    .video {
+        &::before {
+            display: none;
+        }
+    }
+    .map {
+        &::before {
+            display: none;
+        }
+    }
+    .contacts {
+        padding:  50px 0 50px 0;
+        background-image: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.1)), url(../img/contacts_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__h {
+            margin-bottom: 30px;
+        }
+    
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    
+        &__text {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 700px;
+            color: #FFFFFF;
+        }
+    
+        &__form {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+    
+        &__input {
+            max-width: 255px;
+            height: 50px;
+            font-size: 12px;
+            margin-right: 30px;
+        }
+    
+        &__conf {
+            max-width: 255px;
+            font-size: 12px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    
+        &__button {
+            max-width: 255px;
+            height: 50px;
+            font-size: 12px;
+        }
+        &__item {
+            flex: 1 1 100%;
+        }
+    }
+    .conversion {
+        &__item {
+            margin-right: 12px;
+        }
+        &__input {
+            max-width: 190px;
+        }
+        &__button {
+            max-width: 190px;
+        }
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 750px;
+    }
+    .list-item  {
+        white-space: nowrap;
+    }
+    .logo {
+        &__title {
+            font-size: 28px;
+        }
+        &__subtitle {
+            font-size: 10px;
+            line-height: 0px; 
+        }
+    }
+    .footer {
+        &__item {
+            a {
+                font-size: 12px;
+                line-height: 14px; 
+            }
+        }
+    }
+    .modal {
+        max-width: 750px !important;
+        &__content {
+            
+        }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;  
+        }
+    
+        &__img {
+            width: 200px;
+            margin-bottom: 10px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    
+        &__left-part {
+            flex: 0 0 25%;
+        }
+    
+        &__subtitle {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 27px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+    
+        &__right-part {
+            flex: 0 0 60%;
+        }
+    
+        &__title {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 35px;
+            color: #FFFFFF;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+        .close-modal {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .close-modal img {
+            width: 15px;
+        }
+        &__price {
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 48px;
+            color: #D4C17F;
+            margin-left: 0;
+            margin-bottom: 0px;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 500px;
+            height: 50px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            color: #FFFFFF;
+        }
+        &__list-item {
+            flex: 0 1 50%;
+            margin: 0 5px 0 5px;
+        }
+    }
+    .contacts {
+    
+        &__form {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+    
+        &__input {
+        }
+    
+        &__item {
+        }
+    
+        &__conf {
+        }
+    
+        &__button {
+        }
+    }
+}

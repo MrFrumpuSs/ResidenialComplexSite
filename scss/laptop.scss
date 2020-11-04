@@ -1,0 +1,213 @@
+@media (min-width: 992px) and (max-width : 1199px)
+{
+    .adventages {
+        &::before {
+            display: none;
+        }
+    }
+    .catalog {
+        &::before {
+            display: none;
+        }
+    }
+    .video {
+        &::before {
+            display: none;
+        }
+    }
+    .map {
+        &::before {
+            display: none;
+        }
+    }
+    .conversion {
+        &__item {
+            margin-right: 12px;
+        }
+    }
+    .contacts {
+        padding:  180px 0 180px 0;
+        background-image: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.1)), url(../img/contacts_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        &__h {
+            margin-bottom: 50px;
+        }
+    
+        &__wrapper {
+            display: flex;
+            align-items: center;
+        }
+    
+        &__text {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            max-width: 450px;
+            color: #FFFFFF;
+        }
+    
+        &__form {
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    
+        &__input {
+            max-width: 230px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.200);
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 27px;
+            color: #BEBEBE;
+            margin-right: 30px;
+            &::placeholder {
+                color: #BEBEBE;
+            }
+            &:nth-last-child(3) {
+                margin-right: 0px;
+            }
+        }
+    
+        &__conf {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            color: #E7E7E7;
+        }
+    
+        &__button {
+            max-width: 230px;
+            height: 50px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 27px;
+            color: #fff;
+            background: #D4C17F;
+        }
+        &__item {
+            flex: 0 1 50%;
+            margin-bottom: 30px;
+        }
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 970px;
+    }
+    //МОДАЛЬНОЕ ОКНО ПЕРДПРОСМОТРА КВАРТИРЫ
+    .modal {
+        max-width: 970px !important;
+        &__content {
+            
+        }
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;  
+        }
+
+        &__img {
+            width: 300px;
+            margin-bottom: 10px;
+        }
+
+        &__left-part {
+            flex: 0 0 25%;
+        }
+
+        &__subtitle {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 27px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        &__right-part {
+            flex: 0 0 60%;
+        }
+
+        &__title {
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 35px;
+            color: #FFFFFF;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        .close-modal {
+            position: absolute;
+            right: 15px;
+            top: 15px;
+        }
+        .close-modal img {
+            width: 15px;
+        }
+        &__price {
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 48px;
+            color: #D4C17F;
+            margin-left: 50px;
+            margin-bottom: 30px;
+        }
+        &__list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 500px;
+            height: 50px;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            color: #FFFFFF;
+        }
+        &__list-item {
+            flex: 0 1 50%;
+            margin: 0 5px 0 5px;
+        }
+    }
+    .contacts {
+
+        &__form {
+         
+        }
+    
+        &__input {
+        
+        }
+    
+        &__item {
+            
+        }
+    
+        &__conf {
+           
+        }
+    
+        &__button {
+           
+        }
+    }
+}

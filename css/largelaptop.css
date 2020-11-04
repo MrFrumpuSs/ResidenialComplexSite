@@ -1,0 +1,17 @@
+@media (min-width: 0px) and (max-width: 1599px) {
+  .adventages::before {
+    display: none;
+  }
+
+  .catalog::before {
+    display: none;
+  }
+
+  .video::before {
+    display: none;
+  }
+
+  .map::before {
+    display: none;
+  }
+}
